@@ -1,0 +1,566 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'afterglow','bakso sapi';
+    background: url(background2.jpg);
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: relative; 
+    top: 0;
+    background: url(background2.jpg);
+    z-index: 1;
+    border-bottom:1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #fff;
+    background: #3f72af;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kolom .deskripsi {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 100;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #364f6b;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: url();
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #364f6b;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+h6 {
+    font-family: 'comic sans ms';
+    font-weight: 750;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.book-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book-choose {
+    width: 20%;
+    padding: 0;
+    margin: auto;
+}
+
+.book-choose img {
+    width: 80%;
+    border-image: fill ;
+}
+
+.book-choose p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-image: fill;
+}
+
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+    text-align:center;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
+.box {
+    border:1,5px solid;
+    width:25%;
+    padding:20px 50px;
+    float:right;
+    color:#364f6b
+}
+h4 {
+    text-align: center;
+    color: #3f72af ;  
+}
+h5 {
+    font-family: 'comic sans ms';
+    font-weight: 750;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;   
+}
+
+.komunitas img{
+        width: 50%;
+        border-image: 90%;
+        margin: auto;
+        display: flex;
+        margin-bottom: 50px;
+}
+.komunitas p{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 17px 16px 10px 199px;
+    text-decoration: none;
+}
+    .bg-loader {
+        background-color: #eee;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bg-loader .loader{
+        width: 100px;
+        height: 100px;
+        border:3px solid #fff;
+        border-radius: 50%;
+        border-top-color: #364f6b;
+        border-right-color: #364f6b;
+        border-bottom-color: #364f6b;
+        animation: puterin .5s linear infinite;
+    }
+    @keyframes puterin{
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #3f72af;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: #07c1f0;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #3f72af;
+    text-decoration: none;
+  }
+  .form .register-form {
+    display: none;
+  }
+
+body {
+  background:url(b1.jpeg);
+  
+ 
+}
+
+.sign-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .login{
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .login input{
+    font-family: "Roboto", sans-serif;
+    outline: 5;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  .login button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #3f72af;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .login button:hover,.login button:active,.login button:focus {
+    background: #364f6b;
+  }
+  .login .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .login .message a {
+    color: #3f72af;
+    text-decoration: none;
+  }
+    body {
+        background:url(b1.jpeg);}
+
+        .login-page {
+            width: 360px;
+            padding: 8% 0 0;
+            margin: auto;
+          }
+          .form {
+            position: relative;
+            z-index: 1;
+            background: #FFFFFF;
+            max-width: 360px;
+            margin: 0 auto 100px;
+            padding: 45px;
+            text-align: center;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+          }
+          .form input {
+            font-family: "Roboto", sans-serif;
+            outline: 0;
+            background: #f2f2f2;
+            width: 100%;
+            border: 0;
+            margin: 0 0 15px;
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 14px;
+          }
+          .form button {
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+            outline: 0;
+            background: #3f72af;
+            width: 100%;
+            border: 0;
+            padding: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+          }
+          .form button:hover,.form button:active,.form button:focus {
+            background: #364f6b;
+          }
+          .form .message {
+            margin: 15px 0 0;
+            color: #b3b3b3;
+            font-size: 12px;
+          }
+          .form .message a {
+            color: #3f72af;
+            text-decoration: none;
+          }
+          .form .register-form {
+            display: none;
+          }
+        
+        body {
+          background:url(b1.jpeg);
+          
+         
+        }
+        #title{
+            background-color:#364F6B;
+            font-size: 20pt;
+            color:white;
+            font-family: Courier;
+        }
+        
+        #about{
+            color:#364F6B;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+        }
+        
+        
+        p{
+            font-size: 12pt;
+        }
+        .gambar{
+            height: 300px;
+            width: 300px;
+        }
+        #space{
+            text-align: center;
+            font-size: 10pt;
+            background-color:#364F6B;
+            color:white;
+            font-family: Courier;
+        }
+
+       
+        h3 {
+            font-family: 'keep on truckin';
+            font-weight: 500;
+            font-size: 20px;
+            margin-bottom: 10px;
+            color:black;
+    
+       text-align: center;
+            background: beige;
+            width: 200px;
+            height: 50px;
+            padding: 5px 5px 5px 5px;
+            border-radius: 40px
+        }
+
+        body {
+            margin: 5px;
+            padding: 10px;
+            font-family: 'afterglow','bakso sapi';
+            background: url(background2.jpg);
+        }
+        
